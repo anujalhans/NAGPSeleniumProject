@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project">
+              <span class="suite-name border-passed">Amazon Application NAGP Selenium Project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Amazon_Application_NAGP_Selenium_Project">
+                    <span>C:\Users\anujalhans01\workspace\AnujAlhans-3144196-NAGP-Amazon-Selenium-Automation-Project-Final\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Amazon_Application_NAGP_Selenium_Project">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Amazon_Application_NAGP_Selenium_Project">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Amazon_Application_NAGP_Selenium_Project">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Amazon_Application_NAGP_Selenium_Project">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Amazon_Application_NAGP_Selenium_Project">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Amazon_Application_NAGP_Selenium_Project">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" class="hide-methods passed suite-Amazon_Application_NAGP_Selenium_Project"> (hide)</a> <!-- hide-methods passed suite-Amazon_Application_NAGP_Selenium_Project -->
+                      <a href="#" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" class="show-methods passed suite-Amazon_Application_NAGP_Selenium_Project"> (show)</a> <!-- show-methods passed suite-Amazon_Application_NAGP_Selenium_Project -->
+                    </span>
+                    <div class="method-list-content passed suite-Amazon_Application_NAGP_Selenium_Project">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonHomePageTest" hash-for-method="amazonLogoOnHomePageTest">amazonLogoOnHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonHomePageTest" hash-for-method="clickAndValidateTodaysDealsPage">clickAndValidateTodaysDealsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonLoginPageTest" hash-for-method="conditionsOfUseTest">conditionsOfUseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonHomePageTest" hash-for-method="enterAndValidateDeliveryAddressPincodeTest">enterAndValidateDeliveryAddressPincodeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonLoginPageTest" hash-for-method="failedLoginTest">failedLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonLoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonLoginPageTest" hash-for-method="openLoginScreenTest">openLoginScreenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonLoginPageTest" hash-for-method="privacyNoticeTest">privacyNoticeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonHomePageTest" hash-for-method="searchProductTest">searchProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Application_NAGP_Selenium_Project" title="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest" hash-for-method="validateSortSearchResultsByPriceLowToHighTest">validateSortSearchResultsByPriceLowToHighTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Amazon_Application_NAGP_Selenium_Project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Amazon_Application_NAGP_Selenium_Project" class="panel Amazon_Application_NAGP_Selenium_Project">
+          <div class="suite-Amazon_Application_NAGP_Selenium_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagp.amazon.tests.AmazonProductSearchResultsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSortSearchResultsByPriceLowToHighTest">
+                  </a> <!-- validateSortSearchResultsByPriceLowToHighTest -->
+                  <span class="method-name">validateSortSearchResultsByPriceLowToHighTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_Application_NAGP_Selenium_Project-class-passed -->
+          <div class="suite-Amazon_Application_NAGP_Selenium_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagp.amazon.tests.AmazonLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="conditionsOfUseTest">
+                  </a> <!-- conditionsOfUseTest -->
+                  <span class="method-name">conditionsOfUseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="failedLoginTest">
+                  </a> <!-- failedLoginTest -->
+                  <span class="method-name">failedLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openLoginScreenTest">
+                  </a> <!-- openLoginScreenTest -->
+                  <span class="method-name">openLoginScreenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="privacyNoticeTest">
+                  </a> <!-- privacyNoticeTest -->
+                  <span class="method-name">privacyNoticeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_Application_NAGP_Selenium_Project-class-passed -->
+          <div class="suite-Amazon_Application_NAGP_Selenium_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagp.amazon.tests.AmazonHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="amazonLogoOnHomePageTest">
+                  </a> <!-- amazonLogoOnHomePageTest -->
+                  <span class="method-name">amazonLogoOnHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAndValidateTodaysDealsPage">
+                  </a> <!-- clickAndValidateTodaysDealsPage -->
+                  <span class="method-name">clickAndValidateTodaysDealsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAndValidateDeliveryAddressPincodeTest">
+                  </a> <!-- enterAndValidateDeliveryAddressPincodeTest -->
+                  <span class="method-name">enterAndValidateDeliveryAddressPincodeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductTest">
+                  </a> <!-- searchProductTest -->
+                  <span class="method-name">searchProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_Application_NAGP_Selenium_Project-class-passed -->
+        </div> <!-- panel Amazon_Application_NAGP_Selenium_Project -->
+        <div panel-name="test-xml-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\anujalhans01\workspace\AnujAlhans-3144196-NAGP-Amazon-Selenium-Automation-Project-Final\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Amazon Application NAGP Selenium Project&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.nagp.amazon.customListener.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Amazon Application Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nagp.amazon.tests.AmazonLoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nagp.amazon.tests.AmazonHomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.nagp.amazon.tests.AmazonProductSearchResultsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Application Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Amazon Application NAGP Selenium Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Amazon Application NAGP Selenium Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Application Test Cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Amazon Application NAGP Selenium Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickAndValidateTodaysDealsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">conditionsOfUseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterAndValidateDeliveryAddressPincodeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">failedLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">privacyNoticeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateSortSearchResultsByPriceLowToHighTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">amazonLogoOnHomePageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickAndValidateTodaysDealsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterAndValidateDeliveryAddressPincodeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openLoginScreenTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateSortSearchResultsByPriceLowToHighTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Amazon Application NAGP Selenium Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Amazon_Application_NAGP_Selenium_Project');
+function tableData_Amazon_Application_NAGP_Selenium_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'failedLoginTest')
+data.setCell(0, 2, 'com.nagp.amazon.tests.AmazonLoginPageTest')
+data.setCell(0, 3, 13087);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterAndValidateDeliveryAddressPincodeTest')
+data.setCell(1, 2, 'com.nagp.amazon.tests.AmazonHomePageTest')
+data.setCell(1, 3, 9572);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.nagp.amazon.tests.AmazonLoginPageTest')
+data.setCell(2, 3, 6814);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateSortSearchResultsByPriceLowToHighTest')
+data.setCell(3, 2, 'com.nagp.amazon.tests.AmazonProductSearchResultsPageTest')
+data.setCell(3, 3, 6680);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'conditionsOfUseTest')
+data.setCell(4, 2, 'com.nagp.amazon.tests.AmazonLoginPageTest')
+data.setCell(4, 3, 6648);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickAndValidateTodaysDealsPage')
+data.setCell(5, 2, 'com.nagp.amazon.tests.AmazonHomePageTest')
+data.setCell(5, 3, 6070);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'privacyNoticeTest')
+data.setCell(6, 2, 'com.nagp.amazon.tests.AmazonLoginPageTest')
+data.setCell(6, 3, 2923);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchProductTest')
+data.setCell(7, 2, 'com.nagp.amazon.tests.AmazonHomePageTest')
+data.setCell(7, 3, 2785);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'openLoginScreenTest')
+data.setCell(8, 2, 'com.nagp.amazon.tests.AmazonLoginPageTest')
+data.setCell(8, 3, 1622);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'amazonLogoOnHomePageTest')
+data.setCell(9, 2, 'com.nagp.amazon.tests.AmazonHomePageTest')
+data.setCell(9, 3, 133);
+window.suiteTableData['Amazon_Application_NAGP_Selenium_Project']= { tableData: data, tableDiv: 'times-div-Amazon_Application_NAGP_Selenium_Project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-Amazon_Application_NAGP_Selenium_Project">
+              </div> <!-- times-div-Amazon_Application_NAGP_Selenium_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Amazon Application NAGP Selenium Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Amazon_Application_NAGP_Selenium_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonProductSearchResultsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSortSearchResultsByPriceLowToHighTest</span>
+                <span class="method-start">20551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateSortSearchResultsByPriceLowToHighTest status=SUCCESS method=AmazonProductSe...)</span>
+                <span class="method-start">27240 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openLoginScreenTest</span>
+                <span class="method-start">41371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=openLoginScreenTest status=SUCCESS method=AmazonLoginPageTest.openLoginScreenTest()...)</span>
+                <span class="method-start">42995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">43871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">amazonLogoOnHomePageTest</span>
+                <span class="method-start">58048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=amazonLogoOnHomePageTest status=SUCCESS method=AmazonHomePageTest.amazonLogoOnHomeP...)</span>
+                <span class="method-start">58182 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">conditionsOfUseTest</span>
+                <span class="method-start">72131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=conditionsOfUseTest status=SUCCESS method=AmazonLoginPageTest.conditionsOfUseTest()...)</span>
+                <span class="method-start">78784 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAndValidateTodaysDealsPage</span>
+                <span class="method-start">90239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickAndValidateTodaysDealsPage status=SUCCESS method=AmazonHomePageTest.clickAndVa...)</span>
+                <span class="method-start">96312 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">97192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">privacyNoticeTest</span>
+                <span class="method-start">115230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=privacyNoticeTest status=SUCCESS method=AmazonLoginPageTest.privacyNoticeTest()[pri...)</span>
+                <span class="method-start">118157 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterAndValidateDeliveryAddressPincodeTest</span>
+                <span class="method-start">126714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=enterAndValidateDeliveryAddressPincodeTest status=SUCCESS method=AmazonHomePageTest...)</span>
+                <span class="method-start">136289 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">148029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=AmazonLoginPageTest.loginTest()[pri:4, instance:com...)</span>
+                <span class="method-start">154851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">155761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchProductTest</span>
+                <span class="method-start">172167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchProductTest status=SUCCESS method=AmazonHomePageTest.searchProductTest()[pri:...)</span>
+                <span class="method-start">174955 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagp.amazon.tests.AmazonLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">175828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">failedLoginTest</span>
+                <span class="method-start">186211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=failedLoginTest status=SUCCESS method=AmazonLoginPageTest.failedLoginTest()[pri:5, ...)</span>
+                <span class="method-start">199303 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

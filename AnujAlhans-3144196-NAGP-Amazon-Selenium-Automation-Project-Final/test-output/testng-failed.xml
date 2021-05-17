@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon Application NAGP Selenium Project]" parallel="none">
+  <listeners>
+    <listener class-name="com.nagp.amazon.customListener.ExtentListener"/>
+  </listeners>
+  <test name="Amazon Application Test Cases">
+    <classes>
+      <class name="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+      <class name="com.nagp.amazon.tests.AmazonHomePageTest"/>
+      <class name="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest"/>
+    </classes>
+  </test> <!-- Amazon Application Test Cases -->
+</suite> <!-- Failed suite [Amazon Application NAGP Selenium Project] -->

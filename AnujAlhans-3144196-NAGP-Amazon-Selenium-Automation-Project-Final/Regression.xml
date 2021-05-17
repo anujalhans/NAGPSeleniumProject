@@ -1,0 +1,23 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Application NAGP Selenium Project">
+	<listeners>
+		<listener class-name="com.nagp.amazon.customListener.ExtentListener">
+		</listener>
+	</listeners>
+	<test name="Amazon Application Test Cases">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.nagp.amazon.tests.AmazonLoginPageTest">
+			</class>
+			<class name="com.nagp.amazon.tests.AmazonHomePageTest">
+			</class>
+			<class name="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest">
+			</class>
+		</classes>
+	</test>
+</suite>
