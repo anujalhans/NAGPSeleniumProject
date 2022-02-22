@@ -1,110 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon Application NAGP Selenium Project" duration-ms="200178" started-at="2021-05-16T08:05:52Z" finished-at="2021-05-16T08:09:12Z">
+  <suite started-at="2022-02-23T00:23:18 IST" name="Amazon Application NAGP Selenium Project" finished-at="2022-02-23T00:24:34 IST" duration-ms="75840">
     <groups>
-      <group name="Regression">
-        <method signature="AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="clickAndValidateTodaysDealsPage" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
-        <method signature="AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="enterAndValidateDeliveryAddressPincodeTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
-        <method signature="AmazonLoginPageTest.conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="conditionsOfUseTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonLoginPageTest.failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="failedLoginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="loginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonLoginPageTest.privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="privacyNoticeTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc]" name="validateSortSearchResultsByPriceLowToHighTest" class="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest"/>
-      </group> <!-- Regression -->
       <group name="smoke">
-        <method signature="AmazonHomePageTest.searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="searchProductTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonHomePageTest.searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="searchProductTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
       </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="clickAndValidateTodaysDealsPage" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="enterAndValidateDeliveryAddressPincodeTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonLoginPageTest.conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="conditionsOfUseTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonLoginPageTest.failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="failedLoginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="loginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonLoginPageTest.privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="privacyNoticeTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4]" name="validateSortSearchResultsByPriceLowToHighTest" class="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest"/>
+      </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="AmazonHomePageTest.amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="amazonLogoOnHomePageTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
-        <method signature="AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="clickAndValidateTodaysDealsPage" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
-        <method signature="AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="enterAndValidateDeliveryAddressPincodeTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
-        <method signature="AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="loginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonLoginPageTest.openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="openLoginScreenTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
-        <method signature="AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc]" name="validateSortSearchResultsByPriceLowToHighTest" class="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest"/>
+        <method signature="AmazonHomePageTest.amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="amazonLogoOnHomePageTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="clickAndValidateTodaysDealsPage" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" name="enterAndValidateDeliveryAddressPincodeTest" class="com.nagp.amazon.tests.AmazonHomePageTest"/>
+        <method signature="AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="loginTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonLoginPageTest.openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" name="openLoginScreenTest" class="com.nagp.amazon.tests.AmazonLoginPageTest"/>
+        <method signature="AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4]" name="validateSortSearchResultsByPriceLowToHighTest" class="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Amazon Application Test Cases" duration-ms="200178" started-at="2021-05-16T08:05:52Z" finished-at="2021-05-16T08:09:12Z">
+    <test started-at="2022-02-23T00:23:18 IST" name="Amazon Application Test Cases" finished-at="2022-02-23T00:24:34 IST" duration-ms="75840">
       <class name="com.nagp.amazon.tests.AmazonHomePageTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="setExtent" is-config="true" duration-ms="9" started-at="2021-05-16T13:35:52Z" finished-at="2021-05-16T13:35:52Z">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:23:18 IST" name="setExtent" finished-at="2022-02-23T00:23:18 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setExtent" is-config="true" duration-ms="0" started-at="2021-05-16T13:35:52Z" finished-at="2021-05-16T13:35:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="setup" is-config="true" duration-ms="14177" started-at="2021-05-16T13:36:36Z" finished-at="2021-05-16T13:36:50Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:23:54 IST" name="setup" finished-at="2022-02-23T00:23:57 IST" duration-ms="2946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="amazonLogoOnHomePageTest" duration-ms="133" started-at="2021-05-16T13:36:50Z" finished-at="2021-05-16T13:36:50Z">
+        <test-method signature="amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:23:57 IST" name="amazonLogoOnHomePageTest" finished-at="2022-02-23T00:23:57 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLogoOnHomePageTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="tearDown" is-config="true" duration-ms="806" started-at="2021-05-16T13:36:50Z" finished-at="2021-05-16T13:36:51Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:23:57 IST" name="tearDown" finished-at="2022-02-23T00:23:58 IST" duration-ms="808" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=amazonLogoOnHomePageTest status=SUCCESS method=AmazonHomePageTest.amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565] output={null}]]]>
+                <![CDATA[[TestResult name=amazonLogoOnHomePageTest status=SUCCESS method=AmazonHomePageTest.amazonLogoOnHomePageTest()[pri:1, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="setup" is-config="true" duration-ms="10598" started-at="2021-05-16T13:37:12Z" finished-at="2021-05-16T13:37:23Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:23:58 IST" name="setup" finished-at="2022-02-23T00:24:02 IST" duration-ms="3721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="clickAndValidateTodaysDealsPage" duration-ms="6070" started-at="2021-05-16T13:37:23Z" finished-at="2021-05-16T13:37:29Z">
+        <test-method signature="clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:02 IST" name="clickAndValidateTodaysDealsPage" finished-at="2022-02-23T00:24:03 IST" duration-ms="1579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAndValidateTodaysDealsPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="tearDown" is-config="true" duration-ms="879" started-at="2021-05-16T13:37:29Z" finished-at="2021-05-16T13:37:29Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:03 IST" name="tearDown" finished-at="2022-02-23T00:24:04 IST" duration-ms="835" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickAndValidateTodaysDealsPage status=SUCCESS method=AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565] output={null}]]]>
+                <![CDATA[[TestResult name=clickAndValidateTodaysDealsPage status=SUCCESS method=AmazonHomePageTest.clickAndValidateTodaysDealsPage()[pri:2, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="setup" is-config="true" duration-ms="7682" started-at="2021-05-16T13:37:51Z" finished-at="2021-05-16T13:37:59Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:04 IST" name="setup" finished-at="2022-02-23T00:24:08 IST" duration-ms="3447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="enterAndValidateDeliveryAddressPincodeTest" duration-ms="9572" started-at="2021-05-16T13:37:59Z" finished-at="2021-05-16T13:38:09Z">
+        <test-method signature="enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:08 IST" name="enterAndValidateDeliveryAddressPincodeTest" finished-at="2022-02-23T00:24:14 IST" duration-ms="5844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterAndValidateDeliveryAddressPincodeTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="tearDown" is-config="true" duration-ms="869" started-at="2021-05-16T13:38:09Z" finished-at="2021-05-16T13:38:09Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:14 IST" name="tearDown" finished-at="2022-02-23T00:24:15 IST" duration-ms="1126" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=enterAndValidateDeliveryAddressPincodeTest status=SUCCESS method=AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565] output={null}]]]>
+                <![CDATA[[TestResult name=enterAndValidateDeliveryAddressPincodeTest status=SUCCESS method=AmazonHomePageTest.enterAndValidateDeliveryAddressPincodeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="setup" is-config="true" duration-ms="16406" started-at="2021-05-16T13:38:28Z" finished-at="2021-05-16T13:38:44Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:15 IST" name="setup" finished-at="2022-02-23T00:24:18 IST" duration-ms="3351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="searchProductTest" duration-ms="2785" started-at="2021-05-16T13:38:44Z" finished-at="2021-05-16T13:38:47Z">
+        <test-method signature="searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:18 IST" name="searchProductTest" finished-at="2022-02-23T00:24:20 IST" duration-ms="2059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565]" name="tearDown" is-config="true" duration-ms="872" started-at="2021-05-16T13:38:47Z" finished-at="2021-05-16T13:38:48Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86]" started-at="2022-02-23T00:24:20 IST" name="tearDown" finished-at="2022-02-23T00:24:21 IST" duration-ms="781" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchProductTest status=SUCCESS method=AmazonHomePageTest.searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@5a955565] output={null}]]]>
+                <![CDATA[[TestResult name=searchProductTest status=SUCCESS method=AmazonHomePageTest.searchProductTest()[pri:4, instance:com.nagp.amazon.tests.AmazonHomePageTest@376a0d86] output={null}]]]>
               </value>
             </param>
           </params>
@@ -113,19 +109,19 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.nagp.amazon.tests.AmazonHomePageTest -->
       <class name="com.nagp.amazon.tests.AmazonProductSearchResultsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc]" name="setup" is-config="true" duration-ms="20532" started-at="2021-05-16T13:35:52Z" finished-at="2021-05-16T13:36:13Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4]" started-at="2022-02-23T00:24:21 IST" name="setup" finished-at="2022-02-23T00:24:26 IST" duration-ms="5512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc]" name="validateSortSearchResultsByPriceLowToHighTest" duration-ms="6680" started-at="2021-05-16T13:36:13Z" finished-at="2021-05-16T13:36:20Z">
+        <test-method signature="validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4]" started-at="2022-02-23T00:24:26 IST" name="validateSortSearchResultsByPriceLowToHighTest" finished-at="2022-02-23T00:24:33 IST" duration-ms="6323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortSearchResultsByPriceLowToHighTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc]" name="tearDown" is-config="true" duration-ms="898" started-at="2021-05-16T13:36:20Z" finished-at="2021-05-16T13:36:20Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4]" started-at="2022-02-23T00:24:33 IST" name="tearDown" finished-at="2022-02-23T00:24:34 IST" duration-ms="812" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateSortSearchResultsByPriceLowToHighTest status=SUCCESS method=AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@6293abcc] output={null}]]]>
+                <![CDATA[[TestResult name=validateSortSearchResultsByPriceLowToHighTest status=SUCCESS method=AmazonProductSearchResultsPageTest.validateSortSearchResultsByPriceLowToHighTest()[pri:0, instance:com.nagp.amazon.tests.AmazonProductSearchResultsPageTest@62656be4] output={null}]]]>
               </value>
             </param>
           </params>
@@ -134,95 +130,185 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.nagp.amazon.tests.AmazonProductSearchResultsPageTest -->
       <class name="com.nagp.amazon.tests.AmazonLoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setup" is-config="true" duration-ms="13231" started-at="2021-05-16T13:36:20Z" finished-at="2021-05-16T13:36:34Z">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:18 IST" name="setExtent" finished-at="2022-02-23T00:23:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:18 IST" name="setup" finished-at="2022-02-23T00:23:24 IST" duration-ms="6172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="openLoginScreenTest" duration-ms="1622" started-at="2021-05-16T13:36:34Z" finished-at="2021-05-16T13:36:35Z">
+        <test-method signature="openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:24 IST" name="openLoginScreenTest" finished-at="2022-02-23T00:23:25 IST" duration-ms="902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginScreenTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="876" started-at="2021-05-16T13:36:35Z" finished-at="2021-05-16T13:36:36Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:25 IST" name="tearDown" finished-at="2022-02-23T00:23:26 IST" duration-ms="812" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openLoginScreenTest status=SUCCESS method=AmazonLoginPageTest.openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23] output={null}]]]>
+                <![CDATA[[TestResult name=openLoginScreenTest status=SUCCESS method=AmazonLoginPageTest.openLoginScreenTest()[pri:1, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setup" is-config="true" duration-ms="13142" started-at="2021-05-16T13:36:51Z" finished-at="2021-05-16T13:37:04Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:26 IST" name="setup" finished-at="2022-02-23T00:23:29 IST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="conditionsOfUseTest" duration-ms="6648" started-at="2021-05-16T13:37:04Z" finished-at="2021-05-16T13:37:11Z">
+        <test-method signature="conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:29 IST" name="conditionsOfUseTest" finished-at="2022-02-23T00:23:31 IST" duration-ms="1854" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Conditions Page Title does not match expected [Amazon.in Help: Conditions of Use] but found [Conditions of Use - Amazon Customer Service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Conditions Page Title does not match expected [Amazon.in Help: Conditions of Use] but found [Conditions of Use - Amazon Customer Service]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.nagp.amazon.tests.AmazonLoginPageTest.conditionsOfUseTest(AmazonLoginPageTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- conditionsOfUseTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="856" started-at="2021-05-16T13:37:11Z" finished-at="2021-05-16T13:37:12Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:31 IST" name="tearDown" finished-at="2022-02-23T00:23:32 IST" duration-ms="781" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=conditionsOfUseTest status=SUCCESS method=AmazonLoginPageTest.conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23] output={null}]]]>
+                <![CDATA[[TestResult name=conditionsOfUseTest status=FAILURE method=AmazonLoginPageTest.conditionsOfUseTest()[pri:2, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setup" is-config="true" duration-ms="18038" started-at="2021-05-16T13:37:29Z" finished-at="2021-05-16T13:37:48Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:32 IST" name="setup" finished-at="2022-02-23T00:23:35 IST" duration-ms="3063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="privacyNoticeTest" duration-ms="2923" started-at="2021-05-16T13:37:48Z" finished-at="2021-05-16T13:37:50Z">
+        <test-method signature="privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:35 IST" name="privacyNoticeTest" finished-at="2022-02-23T00:23:37 IST" duration-ms="1929" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Privacy Notice Page Title does not match expected [Amazon.in Help: Amazon.in Privacy Notice] but found [Amazon.in Privacy Notice - Amazon Customer Service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Privacy Notice Page Title does not match expected [Amazon.in Help: Amazon.in Privacy Notice] but found [Amazon.in Privacy Notice - Amazon Customer Service]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.nagp.amazon.tests.AmazonLoginPageTest.privacyNoticeTest(AmazonLoginPageTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- privacyNoticeTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="874" started-at="2021-05-16T13:37:50Z" finished-at="2021-05-16T13:37:51Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:37 IST" name="tearDown" finished-at="2022-02-23T00:23:38 IST" duration-ms="790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=privacyNoticeTest status=SUCCESS method=AmazonLoginPageTest.privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23] output={null}]]]>
+                <![CDATA[[TestResult name=privacyNoticeTest status=FAILURE method=AmazonLoginPageTest.privacyNoticeTest()[pri:3, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setup" is-config="true" duration-ms="10871" started-at="2021-05-16T13:38:09Z" finished-at="2021-05-16T13:38:20Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:38 IST" name="setup" finished-at="2022-02-23T00:23:41 IST" duration-ms="3330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="loginTest" duration-ms="6814" started-at="2021-05-16T13:38:20Z" finished-at="2021-05-16T13:38:27Z">
+        <test-method signature="loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:41 IST" name="loginTest" finished-at="2022-02-23T00:23:44 IST" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="910" started-at="2021-05-16T13:38:27Z" finished-at="2021-05-16T13:38:28Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:44 IST" name="tearDown" finished-at="2022-02-23T00:23:45 IST" duration-ms="740" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=AmazonLoginPageTest.loginTest()[pri:4, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="setup" is-config="true" duration-ms="10383" started-at="2021-05-16T13:38:48Z" finished-at="2021-05-16T13:38:59Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:45 IST" name="setup" finished-at="2022-02-23T00:23:48 IST" duration-ms="3141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="failedLoginTest" duration-ms="13087" started-at="2021-05-16T13:38:59Z" finished-at="2021-05-16T13:39:12Z">
+        <test-method signature="failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:48 IST" name="failedLoginTest" finished-at="2022-02-23T00:23:53 IST" duration-ms="5432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedLoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23]" name="tearDown" is-config="true" duration-ms="885" started-at="2021-05-16T13:39:12Z" finished-at="2021-05-16T13:39:12Z">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc]" started-at="2022-02-23T00:23:53 IST" name="tearDown" finished-at="2022-02-23T00:23:54 IST" duration-ms="787" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=failedLoginTest status=SUCCESS method=AmazonLoginPageTest.failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@6a01e23] output={null}]]]>
+                <![CDATA[[TestResult name=failedLoginTest status=SUCCESS method=AmazonLoginPageTest.failedLoginTest()[pri:5, instance:com.nagp.amazon.tests.AmazonLoginPageTest@79defdc] output={null}]]]>
               </value>
             </param>
           </params>

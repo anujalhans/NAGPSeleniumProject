@@ -3,21 +3,20 @@ package com.nagp.amazon.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.support.ui.Select;
 
 import com.nagp.amazon.util.TestUtil;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
@@ -44,23 +43,17 @@ public class TestBase {
 	public static void initialization() {
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					".\\drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
+			ChromeOptions chromeOptions = new ChromeOptions();
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(chromeOptions);
 		} else if (browserName.equals("FF")) {
-			System.setProperty("webdriver.gecko.driver",
-					".\\drivers\\geckodriver.exe");
-			FirefoxOptions options = new FirefoxOptions();
-			//options.AddAdditionalCapability("moz:webdriverClick", false);
-			//options.setAcceptInsecureCerts(true);
-			//options.setCapability(capabilityName, value);
-			driver = new FirefoxDriver();
+			FirefoxOptions fireFoxOptions = new FirefoxOptions();
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver(fireFoxOptions);
 		} else if (browserName.equals("IE")) {
-			System.setProperty("webdriver.ie.driver",
-					".\\drivers\\IEDriverServer.exe");
-			InternetExplorerOptions capabilities = new InternetExplorerOptions();
-			capabilities.ignoreZoomSettings();	
-			driver = new InternetExplorerDriver(capabilities);
+			InternetExplorerOptions internetExplorerOptions = new InternetExplorerOptions();
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver(internetExplorerOptions);
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -69,6 +62,5 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 
 	}
-
 
 }
